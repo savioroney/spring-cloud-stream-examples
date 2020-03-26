@@ -8,3 +8,12 @@ This repository contains some examples of Java implementations using the Spring 
 3. [Multiple Binders](https://github.com/savioroney/spring-cloud-stream-examples): Creation of binders for Kafka and Rabbit in the same application;
 4. [Mutiple Queue Bindings](https://github.com/savioroney/spring-cloud-stream-examples): Customizing the creation of multiple bindings for Rabbit queues
 5. [Message Converter](https://github.com/savioroney/spring-cloud-stream-examples): Customization of message converter
+
+
+We used to implement the examples:
+
+* [Spring Initializr](https://start.spring.io/)
+* [Spring Cloud Stream](https://spring.io/projects/spring-cloud-stream): Version TBD
+* [Spring Cloud Stream Binder Rabbit](https://github.com/spring-cloud/spring-cloud-stream-binder-rabbit): Version TBD
+* [Spring Cloud Stream Binder Kafka](https://github.com/spring-cloud/spring-cloud-stream-binder-kafka): Version TBD
+
