@@ -1,7 +1,7 @@
-# spring-cloud-stream-examples
-Spring Cloud Stream - Examples 
+# Spring Cloud Stream - Examples 
+This repository contains some examples of Java implementations using the Spring Cloud Stream libraries with a focus on Kafka and RabbitMQ. 
 
-This repository contains some examples of Java implementations using the Spring Cloud Stream libraries with a focus on Kafka and RabbitMQ. We will cover:
+We will cover:
 
 1. [Binder Kafka](https://github.com/savioroney/spring-cloud-stream-examples): Producers and consumers with tests;
 2. [Binder Rabbit](https://github.com/savioroney/spring-cloud-stream-examples): Producers and consumers with tests;
