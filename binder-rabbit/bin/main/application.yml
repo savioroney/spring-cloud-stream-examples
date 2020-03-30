@@ -1,0 +1,14 @@
+
+spring:
+    cloud:
+        stream:
+            bindings:
+                topicInput:
+                    destination: example-exchange
+                    group: queue1
+            rabbit:
+                bindings:
+                    topicInput:
+                        consumer:
+                            bindQueue: true
+                            bindingRoutingKey: routingKey1
