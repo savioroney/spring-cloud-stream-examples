@@ -1,1 +1,1 @@
-# Binder Kafka
+# Binder Rabbit
