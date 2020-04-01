@@ -17,7 +17,7 @@ public class Producer {
     public String sendFoo(@PathVariable String foo) {
         this.topicInput.send(MessageBuilder.withPayload(foo).build());
         
-        return "Sent to topic-input:" + foo;
+        return "Sent to queue1:" + foo;
     }
 
 }
