@@ -1,0 +1,26 @@
+
+spring:
+  cloud:
+    stream:
+      bindings:
+        rabbitQueueIn:
+          destination: example-exchange
+          group: queue1
+          binder: rabbit
+        kafkaTopicOut:
+          destination: topic1
+          binder: kafka        
+        kafkaTopicIn:
+          destination: topic1
+          binder: kafka
+      rabbit:
+        bindings:
+          rabbitQueueIn:
+              consumer:
+                bindQueue: true
+                bindingRoutingKey: routingKey1    
+      binders:
+        rabbit:
+          type: rabbit
+        kafka:
+          type: kafka
