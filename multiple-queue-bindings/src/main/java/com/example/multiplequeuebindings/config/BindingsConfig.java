@@ -20,7 +20,7 @@ public class BindingsConfig {
     }
 
     @Bean
-    public void enableQueueBindings() {
+    public void createBindings() {
         Queue queue = new Queue("queue1");
         TopicExchange exchange = new TopicExchange("example-exchange");
         rabbitAdmin.declareQueue(queue);
